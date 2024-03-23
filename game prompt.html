@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+<title>The right price game</title>
+<link rel="stylesheet" href="game prompt.css">
+</head>
+<body>
+<h1>The right price game.</h1>
+<section>
+    <from>
+  <h2>Start a new game</h2>
+  <label for="playerName"></label>
+  <input type="text" placeholder="Player name"><br><br>
+  <input type="submit" value="start the game">
+  </from>
+</section>
+<section>
+  <h2>The game</h2>
+  <label for="playerGuess"></label>
+  <input type="number" placeholder="Player guess"><br><br>
+  <input type="submit" value="Guess">
+  <p><b>Advice:</b> <span id="advice"></span></p>
+</section>
+<section>
+  <h2>leader board</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Ranking</th>
+        <th>Player name</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Tom</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Bill</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Bob</td>
+        <td>10</td>
+      </tr>
+    </tbody>
+  </table>
+  <script src="game prompt.js"></script>
+</body>
+</html>
